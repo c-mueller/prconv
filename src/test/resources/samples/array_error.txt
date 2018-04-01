@@ -1,0 +1,212 @@
+stdClass Object
+(
+    [generic] => stdClass Object
+        (
+            [sr_id] => 51f3ec22f3663bcb57648e691d5adcb94751c7ca
+            [event_time] => 2018-03-31T22:36:33+02:00
+            [event_timestamp] => 1522528593
+            [total_ship_count] => 24510
+            [total_defense_count] => 0
+            [loot_percentage] => 75
+            [spy_fail_chance] => 15
+            [activity] => 15
+            [attacker_name] => GEtRaenkeAUTomat
+            [attacker_planet_name] => Flottenbunker
+            [attacker_planet_coordinates] => 2:352:11
+            [attacker_planet_type] => 3
+            [attacker_alliance_name] => Aggressive Alkis
+            [attacker_alliance_tag] => AGGRO
+            [defender_name] => Down
+            [defender_planet_name] => Mond
+            [defender_planet_coordinates] => 2:341:12
+            [defender_planet_type] => 3
+            [defender_alliance_name] => I Bims 1
+            [defender_alliance_tag] => iBIMs
+            [failed_ships] =>
+            [failed_defense] =>
+            [failed_buildings] =>
+            [failed_research] =>
+        )
+
+    [details] => stdClass Object
+        (
+            [resources] => stdClass Object
+                (
+                    [metal] => 19168418
+                    [crystal] => 81043290
+                    [deuterium] => 173819417
+                )
+
+            [buildings] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [building_type] => 14
+                            [level] => 4
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [building_type] => 41
+                            [level] => 6
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [building_type] => 42
+                            [level] => 8
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [building_type] => 43
+                            [level] => 1
+                        )
+
+                )
+
+            [ships] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ship_type] => 202
+                            [count] => 14363
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [ship_type] => 203
+                            [count] => 10000
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [ship_type] => 208
+                            [count] => 1
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [ship_type] => 210
+                            [count] => 145
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [ship_type] => 214
+                            [count] => 1
+                        )
+
+                )
+
+            [defense] => Array
+                (
+                )
+
+            [research] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [research_type] => 106
+                            [level] => 18
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [research_type] => 108
+                            [level] => 20
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [research_type] => 109
+                            [level] => 20
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [research_type] => 110
+                            [level] => 20
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [research_type] => 111
+                            [level] => 20
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [research_type] => 113
+                            [level] => 18
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [research_type] => 114
+                            [level] => 9
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [research_type] => 115
+                            [level] => 19
+                        )
+
+                    [8] => stdClass Object
+                        (
+                            [research_type] => 117
+                            [level] => 17
+                        )
+
+                    [9] => stdClass Object
+                        (
+                            [research_type] => 118
+                            [level] => 15
+                        )
+
+                    [10] => stdClass Object
+                        (
+                            [research_type] => 120
+                            [level] => 12
+                        )
+
+                    [11] => stdClass Object
+                        (
+                            [research_type] => 121
+                            [level] => 11
+                        )
+
+                    [12] => stdClass Object
+                        (
+                            [research_type] => 122
+                            [level] => 15
+                        )
+
+                    [13] => stdClass Object
+                        (
+                            [research_type] => 123
+                            [level] => 7
+                        )
+
+                    [14] => stdClass Object
+                        (
+                            [research_type] => 124
+                            [level] => 23
+                        )
+
+                    [15] => stdClass Object
+                        (
+                            [research_type] => 199
+                            [level] => 1
+                        )
+
+                )
+
+            [repairOrder] => Array
+                (
+                )
+
+
+
+)

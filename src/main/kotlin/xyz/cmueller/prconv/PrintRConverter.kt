@@ -21,90 +21,90 @@ class PrintRConverter {
     }
 
     private fun parseRootObject(lines: List<String>, startIdx: Int = 0): Pair<PrintRObject, Int> {
-        if (
-            lines.size < 3 ||
-            !lines[startIdx].endsWith(OBJECT_DEFINITON_DELIMITER) ||
-            lines[startIdx + 1] != OBJECT_OPEN_DELIMITER
-        ) {
-            throw ParsingException("Invalid Header Format!")
-        }
+        failOnInvalidInput(lines, startIdx)
 
-        var obj = PrintRObject()
+        val outputObject = PrintRObject()
 
         var currentIndex = startIdx + 2
         while (currentIndex < lines.size) {
-            var lineParts = lines[currentIndex].replace(KEY_OPEN_DELIMITER, "")
-                .replace(KEY_CLOSE_DELIMITER, "")
-                .replace(" $VALUE_DEFINITION_DELIMITER ", VALUE_DEFINITION_DELIMITER)
-                .split(VALUE_DEFINITION_DELIMITER)
+            val currentLine = lines[currentIndex]
+            val currentLineSeparated = currentLine.cleanupAndSplit()
 
-            if (lineParts.size > 1) {
+            if (currentLineSeparated.size > 1) {
+                val key = currentLineSeparated[0].replace(" ", "")
+                val value = currentLineSeparated[1].trim()
                 when {
-                    lineParts[1].trim() == OBJECT_DEFINITON_DELIMITER -> {
+                    value == OBJECT_DEFINITON_DELIMITER -> {
                         val childPair = parseRootObject(lines, currentIndex)
                         currentIndex = childPair.second
-                        obj.children.put(lineParts[0], childPair.first)
+                        outputObject.children.put(key, childPair.first)
                     }
-                    lineParts[1].trim() == ARRAY_DEFINITON_DELIMITER -> {
+                    value == ARRAY_DEFINITON_DELIMITER -> {
                         val arrayChildPair = parseArray(lines, currentIndex)
                         currentIndex = arrayChildPair.second
-                        obj.children.put(lineParts[0], arrayChildPair.first)
+                        outputObject.children.put(key, arrayChildPair.first)
                     }
-                    lines[currentIndex].contains(VALUE_DEFINITION_DELIMITER) -> {
-                        obj.children.put(lineParts[0], PrintRValue(lineParts[1]))
+                    currentLine.contains(VALUE_DEFINITION_DELIMITER) -> {
+                        outputObject.children.put(key, PrintRValue(value))
                     }
                 }
-            } else if (lineParts[0] == OBJECT_CLOSE_DELIMITER) {
-                return Pair(obj, currentIndex)
+            } else if (currentLineSeparated[0] == OBJECT_CLOSE_DELIMITER) {
+                return Pair(outputObject, currentIndex)
             }
             currentIndex++
         }
-
-        return Pair(obj, currentIndex - 1)
+        throw ParsingException("Parsing Failed. Please check opening (')') and closing brackets (')')")
     }
 
     private fun parseArray(lines: List<String>, startIdx: Int): Pair<PrintRArray, Int> {
-        if (
-            lines.size < 3 ||
-            !lines[startIdx].endsWith(ARRAY_DEFINITON_DELIMITER) ||
-            lines[startIdx + 1] != OBJECT_OPEN_DELIMITER
-        ) {
-            throw ParsingException("Invalid Header Format!")
-        }
+        failOnInvalidInput(lines, startIdx, ARRAY_DEFINITON_DELIMITER)
 
-        var obj = PrintRArray()
+        val outputArray = PrintRArray()
 
         var currentIndex = startIdx + 2
         while (currentIndex < lines.size) {
-            var lineParts = lines[currentIndex].replace(KEY_OPEN_DELIMITER, "")
-                .replace(KEY_CLOSE_DELIMITER, "")
-                .replace(" $VALUE_DEFINITION_DELIMITER ", VALUE_DEFINITION_DELIMITER)
-                .split(VALUE_DEFINITION_DELIMITER)
+            val currentLine = lines[currentIndex]
+            val currentLineSeparated = currentLine.cleanupAndSplit()
 
-            if (lineParts.size > 1) {
+            if (currentLineSeparated.size > 1) {
+                val value = currentLineSeparated[1].trim()
                 when {
-                    lineParts[1].trim() == OBJECT_DEFINITON_DELIMITER -> {
+                    value == OBJECT_DEFINITON_DELIMITER -> {
                         val childPair = parseRootObject(lines, currentIndex)
                         currentIndex = childPair.second
-                        obj.objects.add(childPair.first)
+                        outputArray.objects.add(childPair.first)
                     }
-                    lineParts[1].trim() == ARRAY_DEFINITON_DELIMITER -> {
+                    value.trim() == ARRAY_DEFINITON_DELIMITER -> {
                         val arrayChildPair = parseArray(lines, currentIndex)
                         currentIndex = arrayChildPair.second
-                        obj.objects.add(arrayChildPair.first)
+                        outputArray.objects.add(arrayChildPair.first)
                     }
-                    lines[currentIndex].contains(VALUE_DEFINITION_DELIMITER) -> {
-                        obj.objects.add(PrintRValue(lineParts[1]))
+                    currentLine.contains(VALUE_DEFINITION_DELIMITER) -> {
+                        outputArray.objects.add(PrintRValue(currentLineSeparated[1]))
                     }
                 }
-            } else if (lineParts[0] == OBJECT_CLOSE_DELIMITER) {
-                return Pair(obj, currentIndex)
+            } else if (currentLineSeparated[0] == OBJECT_CLOSE_DELIMITER) {
+                return Pair(outputArray, currentIndex)
             }
 
             currentIndex++
         }
 
-        return Pair(obj, currentIndex - 1)
+        throw ParsingException("Parsing Failed. Please check opening (')') and closing brackets (')')")
     }
 
+    private fun String.cleanupAndSplit() = this.replace(KEY_OPEN_DELIMITER, "")
+        .replace(KEY_CLOSE_DELIMITER, "")
+        .replace(" $VALUE_DEFINITION_DELIMITER ", VALUE_DEFINITION_DELIMITER)
+        .split(VALUE_DEFINITION_DELIMITER)
+
+    private fun failOnInvalidInput(lines: List<String>, startIdx: Int, delimiter: String = OBJECT_DEFINITON_DELIMITER) {
+        if (
+            lines.size < 3 ||
+            !lines[startIdx].endsWith(delimiter) ||
+            lines[startIdx + 1] != OBJECT_OPEN_DELIMITER
+        ) {
+            throw ParsingException("Invalid Header Format!")
+        }
+    }
 }

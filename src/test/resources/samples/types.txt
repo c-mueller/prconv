@@ -1,0 +1,9 @@
+stdClass Object
+(
+    [string] => hello my name is caaarl
+    [integer] => 123456
+    [float] => 1.5
+    [boola] => true
+    [boolb] => false
+
+)

@@ -1,5 +1,6 @@
 package xyz.cmueller.prconv.model
 
-open class PrintRElement {
+abstract class PrintRElement {
 
+    abstract fun toJSONValue(): Any
 }
