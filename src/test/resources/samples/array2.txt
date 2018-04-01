@@ -1,0 +1,3489 @@
+stdClass Object
+(
+    [repaired_defenses] => Array
+        (
+        )
+
+    [generic] => stdClass Object
+        (
+            [cr_id] => 1e8d686bf9b64141d23f117a3d7be2c969649896
+            [event_time] => 2018-03-29T07:36:44+02:00
+            [event_timestamp] => 1522301804
+            [combat_coordinates] => 4:150:9
+            [combat_planet_type] => 3
+            [combat_rounds] => 5
+            [loot_percentage] => 100
+            [winner] => attacker
+            [units_lost_attackers] => 14807942000
+            [units_lost_defenders] => 71581809000
+            [attacker_count] => 5
+            [defender_count] => 1
+            [loot_metal] => 1611342990
+            [loot_crystal] => 457621349
+            [loot_deuterium] => 1676943306
+            [combat_honorable] => 1
+            [attacker_honorable] => 1
+            [attacker_honorpoints] => 4984317
+            [defender_honorable] => 1
+            [defender_honorpoints] => 1212041
+            [moon_created] =>
+            [moon_chance] => 0
+            [moon_size] => 0
+            [moon_exists] => 1
+            [debris_metal] => 36428794500
+            [debris_crystal] => 20131570900
+            [wreckfield] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ship_type] => 202
+                            [count] => 83429
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [ship_type] => 203
+                            [count] => 20
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [ship_type] => 204
+                            [count] => 731400
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [ship_type] => 205
+                            [count] => 25678
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [ship_type] => 206
+                            [count] => 54855
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [ship_type] => 207
+                            [count] => 10017
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [ship_type] => 209
+                            [count] => 86734
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [ship_type] => 213
+                            [count] => 12768
+                        )
+
+                    [8] => stdClass Object
+                        (
+                            [ship_type] => 215
+                            [count] => 16038
+                        )
+
+                    [9] => stdClass Object
+                        (
+                            [ship_type] => 208
+                            [count] => 1
+                        )
+
+                    [10] => stdClass Object
+                        (
+                            [ship_type] => 214
+                            [count] => 114
+                        )
+
+                )
+
+        )
+
+    [attackers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [fleet_owner] => Who
+                    [fleet_owner_coordinates] => 4:151:2
+                    [fleet_owner_planet_type] => 3
+                    [fleet_owner_planet_name] => Mond
+                    [fleet_owner_alliance] => Knechte Reloaded
+                    [fleet_owner_alliance_tag] => KNECHTE
+                    [fleet_armor_percentage] => 180
+                    [fleet_shield_percentage] => 180
+                    [fleet_weapon_percentage] => 180
+                    [fleet_composition] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [ship_type] => 202
+                                    [armor] => 1120
+                                    [shield] => 28
+                                    [weapon] => 14
+                                    [count] => 2007943
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [ship_type] => 204
+                                    [armor] => 1120
+                                    [shield] => 28
+                                    [weapon] => 140
+                                    [count] => 3312306
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [ship_type] => 205
+                                    [armor] => 2800
+                                    [shield] => 70
+                                    [weapon] => 420
+                                    [count] => 200000
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [ship_type] => 206
+                                    [armor] => 7560
+                                    [shield] => 140
+                                    [weapon] => 1120
+                                    [count] => 226725
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [ship_type] => 207
+                                    [armor] => 16800
+                                    [shield] => 560
+                                    [weapon] => 2800
+                                    [count] => 100000
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [ship_type] => 215
+                                    [armor] => 19600
+                                    [shield] => 1120
+                                    [weapon] => 1960
+                                    [count] => 150249
+                                )
+
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [fleet_owner] => GEtRaenkeAUTomat
+                    [fleet_owner_coordinates] => 4:151:3
+                    [fleet_owner_planet_type] => 3
+                    [fleet_owner_planet_name] => Mond
+                    [fleet_owner_alliance] => Aggressive Alkis
+                    [fleet_owner_alliance_tag] => AGGRO
+                    [fleet_armor_percentage] => 180
+                    [fleet_shield_percentage] => 190
+                    [fleet_weapon_percentage] => 190
+                    [fleet_composition] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [ship_type] => 202
+                                    [armor] => 1120
+                                    [shield] => 29
+                                    [weapon] => 14.5
+                                    [count] => 600613
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [ship_type] => 204
+                                    [armor] => 1120
+                                    [shield] => 29
+                                    [weapon] => 145
+                                    [count] => 2202743
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [ship_type] => 205
+                                    [armor] => 2800
+                                    [shield] => 72.5
+                                    [weapon] => 435
+                                    [count] => 226787
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [ship_type] => 206
+                                    [armor] => 7560
+                                    [shield] => 145
+                                    [weapon] => 1160
+                                    [count] => 404895
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [ship_type] => 207
+                                    [armor] => 16800
+                                    [shield] => 580
+                                    [weapon] => 2900
+                                    [count] => 52003
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [ship_type] => 215
+                                    [armor] => 19600
+                                    [shield] => 1160
+                                    [weapon] => 2030
+                                    [count] => 215473
+                                )
+
+                        )
+
+                )
+
+            [2] => stdClass Object
+                (
+                    [fleet_owner] => Donatello
+                    [fleet_owner_coordinates] => 4:151:14
+                    [fleet_owner_planet_type] => 3
+                    [fleet_owner_planet_name] => Mond
+                    [fleet_owner_alliance] => Aggressive Alkis
+                    [fleet_owner_alliance_tag] => AGGRO
+                    [fleet_armor_percentage] => 190
+                    [fleet_shield_percentage] => 190
+                    [fleet_weapon_percentage] => 190
+                    [fleet_composition] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [ship_type] => 202
+                                    [armor] => 1160
+                                    [shield] => 29
+                                    [weapon] => 14.5
+                                    [count] => 289281
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [ship_type] => 204
+                                    [armor] => 1160
+                                    [shield] => 29
+                                    [weapon] => 145
+                                    [count] => 1201822
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [ship_type] => 205
+                                    [armor] => 2900
+                                    [shield] => 72.5
+                                    [weapon] => 435
+                                    [count] => 500089
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [ship_type] => 206
+                                    [armor] => 7830
+                                    [shield] => 145
+                                    [weapon] => 1160
+                                    [count] => 314954
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [ship_type] => 207
+                                    [armor] => 17400
+                                    [shield] => 580
+                                    [weapon] => 2900
+                                    [count] => 50054
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [ship_type] => 215
+                                    [armor] => 20300
+                                    [shield] => 1160
+                                    [weapon] => 2030
+                                    [count] => 99982
+                                )
+
+                        )
+
+                )
+
+            [3] => stdClass Object
+                (
+                    [fleet_owner] => hello kitty
+                    [fleet_owner_coordinates] => 4:151:13
+                    [fleet_owner_planet_type] => 3
+                    [fleet_owner_planet_name] => S I A
+                    [fleet_owner_alliance] => GruenerPunktLibra
+                    [fleet_owner_alliance_tag] => GPL
+                    [fleet_armor_percentage] => 190
+                    [fleet_shield_percentage] => 180
+                    [fleet_weapon_percentage] => 190
+                    [fleet_composition] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [ship_type] => 202
+                                    [armor] => 1160
+                                    [shield] => 28
+                                    [weapon] => 14.5
+                                    [count] => 106624
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [ship_type] => 204
+                                    [armor] => 1160
+                                    [shield] => 28
+                                    [weapon] => 145
+                                    [count] => 967668
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [ship_type] => 205
+                                    [armor] => 2900
+                                    [shield] => 70
+                                    [weapon] => 435
+                                    [count] => 73694
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [ship_type] => 206
+                                    [armor] => 7830
+                                    [shield] => 140
+                                    [weapon] => 1160
+                                    [count] => 160517
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [ship_type] => 207
+                                    [armor] => 17400
+                                    [shield] => 560
+                                    [weapon] => 2900
+                                    [count] => 47695
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [ship_type] => 215
+                                    [armor] => 20300
+                                    [shield] => 1120
+                                    [weapon] => 2030
+                                    [count] => 120708
+                                )
+
+                        )
+
+                )
+
+            [4] => stdClass Object
+                (
+                    [fleet_owner] => zuzu
+                    [fleet_owner_coordinates] => 4:151:4
+                    [fleet_owner_planet_type] => 3
+                    [fleet_owner_planet_name] => Mond
+                    [fleet_owner_alliance] => Aggressive Alkis
+                    [fleet_owner_alliance_tag] => AGGRO
+                    [fleet_armor_percentage] => 190
+                    [fleet_shield_percentage] => 180
+                    [fleet_weapon_percentage] => 190
+                    [fleet_composition] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [ship_type] => 204
+                                    [armor] => 1160
+                                    [shield] => 28
+                                    [weapon] => 145
+                                    [count] => 997004
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [ship_type] => 205
+                                    [armor] => 2900
+                                    [shield] => 70
+                                    [weapon] => 435
+                                    [count] => 200000
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [ship_type] => 206
+                                    [armor] => 7830
+                                    [shield] => 140
+                                    [weapon] => 1160
+                                    [count] => 199320
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [ship_type] => 207
+                                    [armor] => 17400
+                                    [shield] => 560
+                                    [weapon] => 2900
+                                    [count] => 49952
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [ship_type] => 215
+                                    [armor] => 20300
+                                    [shield] => 1120
+                                    [weapon] => 2030
+                                    [count] => 99999
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [defenders] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [fleet_owner] => Chikatilo
+                    [fleet_owner_coordinates] => 4:150:9
+                    [fleet_owner_planet_type] => 3
+                    [fleet_owner_planet_name] => Mond
+                    [fleet_owner_alliance] => I Bims 1
+                    [fleet_owner_alliance_tag] => iBIMs
+                    [fleet_armor_percentage] => 200
+                    [fleet_shield_percentage] => 200
+                    [fleet_weapon_percentage] => 200
+                    [fleet_composition] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [ship_type] => 202
+                                    [armor] => 1200
+                                    [shield] => 30
+                                    [weapon] => 15
+                                    [count] => 524716
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [ship_type] => 203
+                                    [armor] => 3600
+                                    [shield] => 75
+                                    [weapon] => 15
+                                    [count] => 130
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [ship_type] => 204
+                                    [armor] => 1200
+                                    [shield] => 30
+                                    [weapon] => 150
+                                    [count] => 4600000
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [ship_type] => 205
+                                    [armor] => 3000
+                                    [shield] => 75
+                                    [weapon] => 450
+                                    [count] => 161500
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [ship_type] => 206
+                                    [armor] => 8100
+                                    [shield] => 150
+                                    [weapon] => 1200
+                                    [count] => 345000
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [ship_type] => 207
+                                    [armor] => 18000
+                                    [shield] => 600
+                                    [weapon] => 3000
+                                    [count] => 63000
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [ship_type] => 208
+                                    [armor] => 9000
+                                    [shield] => 300
+                                    [weapon] => 150
+                                    [count] => 12
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [ship_type] => 209
+                                    [armor] => 4800
+                                    [shield] => 30
+                                    [weapon] => 3
+                                    [count] => 545499
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [ship_type] => 210
+                                    [armor] => 300
+                                    [shield] => 0.03
+                                    [weapon] => 0.03
+                                    [count] => 79593
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [ship_type] => 213
+                                    [armor] => 33000
+                                    [shield] => 1500
+                                    [weapon] => 6000
+                                    [count] => 80305
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [ship_type] => 214
+                                    [armor] => 2700000
+                                    [shield] => 150000
+                                    [weapon] => 600000
+                                    [count] => 717
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [ship_type] => 215
+                                    [armor] => 21000
+                                    [shield] => 1200
+                                    [weapon] => 2100
+                                    [count] => 100873
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rounds] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [round_number] => 1
+                    [statistics] => stdClass Object
+                        (
+                            [attacker_hits] => 17431757
+                            [attacker_absorbed] => 308227482
+                            [attacker_fullstrength] => 8063799874
+                            [defender_hits] => 6942466
+                            [defender_absorbed] => 382385939
+                            [defender_fullstrength] => 41124243387
+                        )
+
+                    [attacker_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 1866341
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 3078887
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 192198
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 224365
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 99388
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 149584
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 558355
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 2047717
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 218027
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 400687
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 51691
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 214501
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 269220
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 1116867
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 480941
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 311737
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 49739
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 99557
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 99119
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 899670
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 70945
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 158816
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 47424
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 120199
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 927371
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 192557
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 197277
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 49641
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 99545
+                                )
+
+                        )
+
+                    [attacker_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 141602
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 233419
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 7802
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 2360
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 612
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 665
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 42258
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 155026
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 8760
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 4208
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 312
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 972
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 20061
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 84955
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 19148
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 3217
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 315
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 425
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 7505
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 67998
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 2749
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 1701
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 271
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 509
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 69633
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 7443
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 2043
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 311
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 454
+                                )
+
+                        )
+
+                    [defender_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 226286
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 87
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 1982132
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 103503
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 318757
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 62855
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 12
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 435193
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 14499
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 80304
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 214
+                                    [count] => 717
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 100845
+                                )
+
+                        )
+
+                    [defender_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 298430
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 43
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 2617868
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 57997
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 26243
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 145
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 110306
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 65094
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 1
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 28
+                                )
+
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [round_number] => 2
+                    [statistics] => stdClass Object
+                        (
+                            [attacker_hits] => 15813480
+                            [attacker_absorbed] => 199048673
+                            [attacker_fullstrength] => 7200532522
+                            [defender_hits] => 3726735
+                            [defender_absorbed] => 362063637
+                            [defender_fullstrength] => 39732097224
+                        )
+
+                    [attacker_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 1734035
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 2860768
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 184057
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 221658
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 98708
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 148890
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 518831
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 1903113
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 208858
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 395809
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 51342
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 213485
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 250220
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 1037760
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 461265
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 308200
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 49416
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 99100
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 92093
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 835896
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 67967
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 156961
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 47101
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 119641
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 861874
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 184621
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 194841
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 49336
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 99100
+                                )
+
+                        )
+
+                    [attacker_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 132306
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 218119
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 8141
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 2707
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 680
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 694
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 39524
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 144604
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 9169
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 4878
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 349
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 1016
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 19000
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 79107
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 19676
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 3537
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 323
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 457
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 7026
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 63774
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 2978
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 1855
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 323
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 558
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 65497
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 7936
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 2436
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 305
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 445
+                                )
+
+                        )
+
+                    [defender_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 28798
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 26
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 252134
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 30669
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 196187
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 60093
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 6
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 166448
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 420
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 80276
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 214
+                                    [count] => 717
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 99799
+                                )
+
+                        )
+
+                    [defender_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 197488
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 61
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 1729998
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 72834
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 122570
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 2762
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 6
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 268745
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 14079
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 28
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 1046
+                                )
+
+                        )
+
+                )
+
+            [2] => stdClass Object
+                (
+                    [round_number] => 3
+                    [statistics] => stdClass Object
+                        (
+                            [attacker_hits] => 14106319
+                            [attacker_absorbed] => 92768907
+                            [attacker_fullstrength] => 6219311067
+                            [defender_hits] => 1196576
+                            [defender_absorbed] => 334292496
+                            [defender_fullstrength] => 41229980604
+                        )
+
+                    [attacker_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 1641311
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 2708466
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 177393
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 218746
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 98006
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 148154
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 491310
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 1801390
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 201252
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 390774
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 50960
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 212435
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 236807
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 982028
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 445116
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 304419
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 49054
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 98595
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 87165
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 791488
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 65610
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 155001
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 46753
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 119009
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 816178
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 178269
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 192401
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 48989
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 98568
+                                )
+
+                        )
+
+                    [attacker_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 92724
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 152302
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 6664
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 2912
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 702
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 736
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 27521
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 101723
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 7606
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 5035
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 382
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 1050
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 13413
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 55732
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 16149
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 3781
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 362
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 505
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 4928
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 44408
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 2357
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 1960
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 348
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 632
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 45696
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 6352
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 2440
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 347
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 532
+                                )
+
+                        )
+
+                    [defender_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 2
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 0
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 38
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 87
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 7096
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 19440
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 1
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 1258
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 0
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 71815
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 214
+                                    [count] => 717
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 56688
+                                )
+
+                        )
+
+                    [defender_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 28796
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 26
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 252096
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 30582
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 189091
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 40653
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 5
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 165190
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 420
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 8461
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 43111
+                                )
+
+                        )
+
+                )
+
+            [3] => stdClass Object
+                (
+                    [round_number] => 4
+                    [statistics] => stdClass Object
+                        (
+                            [attacker_hits] => 12966358
+                            [attacker_absorbed] => 28373937
+                            [attacker_fullstrength] => 5394658525
+                            [defender_hits] => 252138
+                            [defender_absorbed] => 232862055
+                            [defender_fullstrength] => 39820391604
+                        )
+
+                    [attacker_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 1609588
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 2656268
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 174294
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 216388
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 97285
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 147375
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 481962
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 1766266
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 197780
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 386636
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 50595
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 211364
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 232080
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 963009
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 437687
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 301216
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 48722
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 98070
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 85491
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 776296
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 64502
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 153339
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 46412
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 118363
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 800292
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 175242
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 190414
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 48672
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 98029
+                                )
+
+                        )
+
+                    [attacker_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 31723
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 52198
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 3099
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 2358
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 721
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 779
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 9348
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 35124
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 3472
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 4138
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 365
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 1071
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 4727
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 19019
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 7429
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 3203
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 332
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 525
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 1674
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 15192
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 1108
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 1662
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 341
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 646
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 15886
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 3027
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 1987
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 317
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 539
+                                )
+
+                        )
+
+                    [defender_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 0
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 0
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 0
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 0
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 0
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 0
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 0
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 0
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 0
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 0
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 214
+                                    [count] => 717
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 0
+                                )
+
+                        )
+
+                    [defender_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 2
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 38
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 87
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 7096
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 19440
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 1
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 1258
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 71815
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 56688
+                                )
+
+                        )
+
+                )
+
+            [4] => stdClass Object
+                (
+                    [round_number] => 5
+                    [statistics] => stdClass Object
+                        (
+                            [attacker_hits] => 12633637
+                            [attacker_absorbed] => 6754461
+                            [attacker_fullstrength] => 5115187279
+                            [defender_hits] => 58928
+                            [defender_absorbed] => 909795155
+                            [defender_fullstrength] => 35356800000
+                        )
+
+                    [attacker_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 1602170
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 2643842
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 173466
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 215363
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 96836
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 146702
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 479787
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 1758108
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 196858
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 384782
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 50353
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 210352
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 230970
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 958521
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 435635
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 299847
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 48495
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 97606
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 85093
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 772771
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 64180
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 152559
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 46232
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 117828
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 796532
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 174447
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 189487
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 48424
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 97610
+                                )
+
+                        )
+
+                    [attacker_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 7418
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 12426
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 828
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 1025
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 449
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 673
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 202
+                                    [count] => 2175
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 204
+                                    [count] => 8158
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 205
+                                    [count] => 922
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 206
+                                    [count] => 1854
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 207
+                                    [count] => 242
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 1
+                                    [ship_type] => 215
+                                    [count] => 1012
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 202
+                                    [count] => 1110
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 204
+                                    [count] => 4488
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 205
+                                    [count] => 2052
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 206
+                                    [count] => 1369
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 207
+                                    [count] => 227
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [owner] => 2
+                                    [ship_type] => 215
+                                    [count] => 464
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 202
+                                    [count] => 398
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 204
+                                    [count] => 3525
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 205
+                                    [count] => 322
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 206
+                                    [count] => 780
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 207
+                                    [count] => 180
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [owner] => 3
+                                    [ship_type] => 215
+                                    [count] => 535
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 204
+                                    [count] => 3760
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 205
+                                    [count] => 795
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 206
+                                    [count] => 927
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 207
+                                    [count] => 248
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [owner] => 4
+                                    [ship_type] => 215
+                                    [count] => 419
+                                )
+
+                        )
+
+                    [defender_ships] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 202
+                                    [count] => 0
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 203
+                                    [count] => 0
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 204
+                                    [count] => 0
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 205
+                                    [count] => 0
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 206
+                                    [count] => 0
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 207
+                                    [count] => 0
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 208
+                                    [count] => 0
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 209
+                                    [count] => 0
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 210
+                                    [count] => 0
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 213
+                                    [count] => 0
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 214
+                                    [count] => 0
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 215
+                                    [count] => 0
+                                )
+
+                        )
+
+                    [defender_ship_losses] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [owner] => 0
+                                    [ship_type] => 214
+                                    [count] => 717
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

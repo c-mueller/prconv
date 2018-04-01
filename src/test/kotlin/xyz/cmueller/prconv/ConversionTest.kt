@@ -3,6 +3,7 @@ package xyz.cmueller.prconv
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
+import xyz.cmueller.prconv.model.PrintRValue
 import xyz.cmueller.prconv.util.constants.OBJECT_DEFINITON_DELIMITER
 
 class ConversionTest {
@@ -21,8 +22,8 @@ class ConversionTest {
         val data = String(input.readBytes())
         val result = converter.analyze(data)
 
-        Assert.assertEquals(13, result.chrildren.size)
-
+        Assert.assertEquals(13, result.children.size)
+        Assert.assertEquals(PrintRValue("8f2e2a9cb599d2357f198060821b2526b19cc284"), result.children["rr_id"])
     }
 
     @Test
@@ -32,8 +33,27 @@ class ConversionTest {
         val data = String(input.readBytes())
         val result = converter.analyze(data)
 
-        Assert.assertEquals(1, result.chrildren.size)
+        Assert.assertEquals(1, result.children.size)
+    }
 
+    @Test
+    fun testConversion_Array() {
+        println("Reading Sample File")
+        val input = javaClass.getResourceAsStream("/samples/array.txt")
+        val data = String(input.readBytes())
+        val result = converter.analyze(data)
+
+        Assert.assertEquals(2, result.children.size)
+    }
+
+    @Test
+    fun testConversion_Array2() {
+        println("Reading Sample File")
+        val input = javaClass.getResourceAsStream("/samples/array2.txt")
+        val data = String(input.readBytes())
+        val result = converter.analyze(data)
+
+        Assert.assertEquals(5, result.children.size)
     }
 
     @Test(expected = ParsingException::class)

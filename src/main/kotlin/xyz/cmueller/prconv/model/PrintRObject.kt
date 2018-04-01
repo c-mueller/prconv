@@ -1,4 +1,6 @@
 package xyz.cmueller.prconv.model
 
-class PrintRObject : PrintRRootObject() {
+open class PrintRObject : PrintRElement() {
+    val children: MutableMap<String, PrintRElement> = HashMap()
+
 }
