@@ -1,0 +1,17 @@
+stdClass Object
+(
+    [rr_id] => 8f2e2a9cb599d2357f198060821b2526b19cc284
+    [event_time] => 2018-03-29T07:37:43+02:00
+    [event_timestamp] => 1522301863
+    [coordinates] => 4:150:9
+    [recycler_count] => 238118
+    [recycler_capacity] => 4762360000
+    [metal_in_debris_field] => 36428794500
+    [crystal_in_debris_field] => 20131570900
+    [metal_retrieved] => 2381180000
+    [crystal_retrieved] => 2381180000
+    [owner_name] => hello kitty
+    [owner_alliance_name] => GruenerPunktLibra
+    [owner_alliance_tag] => GruenerPunktLibra
+
+)
